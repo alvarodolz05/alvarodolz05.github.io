@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: white;
+}
+
+.portada {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(#000, gray);
+}
+
+.portada h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.imagen-grande {
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.seccion {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #1b1b1b;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000;
+}
+
+.seccion h2 {
+    color: yellow;
+}
+
+.imagen-pequena {
+    width: 230px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    color: white;
+}
+
+.tabla caption {
+    padding: 10px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background-color: #222;
+}
+
+.tabla tbody tr:nth-child(odd) {
+    background-color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    margin-top: 40px;
+}
+.galeria-albumes {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.album {
+    display: inline-block; 
+    width: 140px;          
+    margin: 10px;          
+}
+
+.album img {
+    width: 100%;           
+    border-radius: 10px;   
+}
+
+.album p {
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: yellow;        
+}
