@@ -95,3 +95,40 @@ footer {
     margin-top: 5px;
     color: yellow;        
 }
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .imagen_grande {
+        width: 100%;
+    }
+
+    .imagen-pequena {
+        width: 100%;
+    }
+
+    .galeria-albumes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .album {
+        width: 90%;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
